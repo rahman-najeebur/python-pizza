@@ -26,7 +26,7 @@ def extra_filling(size):
 # calling the display_menu() function
 display_menu()
 
-pizza_choice = input("please enter your pizza choice: ").lower()
+pizza_choice = input("What pizza Size do you want(S, M, L)?: ").lower()
 if pizza_choice == "s":
     bill = 10
     bill += extra_filling(pizza_choice)
